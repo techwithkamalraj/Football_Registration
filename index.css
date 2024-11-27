@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(17, 60, 17);
+}
+.form-container{
+     margin-top: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+.design{
+    width: 80%;
+    background-color: rgb(46, 83, 46);
+    display: flex;
+    justify-content: space-around;
+}
+
+.form{
+    padding-top: 20px;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+}
+#logo{
+    height: 300px;
+    width: 200px;
+}
+.form{
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fullname {
+    display: flex;
+    gap: 20px; /* Space between first and last name fields */
+}
+
+.fullname div {
+    display: flex;
+    flex-direction: column; /* Stack input and label vertically */
+    align-items: flex-start; /* Align labels to the left */
+}
+
+.fullname input {
+    padding: 8px;
+    width: 200px; /* Adjust width as needed */
+    margin-bottom: 5px; /* Space between input and label */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fullname label {
+    font-size: 14px;
+    color: #333;
+}
+
+.dob{
+    display: flex;
+}
+.dob div{
+    display: flex;
+    flex-direction: column;
+}
+.dob label{
+    font-size: 14px;
+    color: #333;
+}
